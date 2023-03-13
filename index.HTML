@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HIIT Timer</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="/script.js" defer></script>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <h1>HIIT Timer</h1>
+
+    <div class="grid-container">
+      <div id="custom">
+        <div class="box">
+          <div id="timer">
+            <h1 id="countdown"></h1>
+          </div>
+        </div>
+
+        <div id="input"></div>
+        <div class="item1" id="controls">
+          <button id="start">Start</button>
+          <button id="pause">Pause</button>
+          <button id="reset">Reset</button>
+        
+          <br>
+        
+          <p id="notice">*The input will be measured in seconds*</p>
+        </div>
+
+        <div class="item2">
+          <h2>Timer</h2>
+          <label for="workout">Workout time:</label><br />
+          <input type="number" id="workout" value="30" />
+        </div>
+
+        <div class="item3">
+          <h2>Rest</h2>
+          <label for="rest">Rest time :</label><br />
+          <input type="number" id="rest" value="30" />
+        </div>
+
+        <div class="item4">
+          <h2>Intervals</h2>
+          <label for="rounds">Number of Intervals:</label><br />
+          <input type="number" id="rounds" value="5" />
+        </div>
+
+        <div class="item5">
+          <h2>Warmup</h2>
+          <label for="warmup">Warmup time:</label><br />
+          <input type="number" id="warmup" value="60" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
